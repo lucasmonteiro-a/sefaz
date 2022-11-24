@@ -1,0 +1,29 @@
+
+
+let numeo = 3;
+let texto = 'Alura';
+
+console.log(typeof numeo)
+
+//Conversão
+const estringue = '120'
+namber = Number(estringue)
+console.log(5 + namber)
+
+// null é um object. E isso é um erro que não pretende ser consertado.
+
+//tipagem dinâmica
+let minhavar = 12;
+minhavar = 'texto';
+
+//Operador Ternário
+console.log(16 >= 18 ? "verdadeiro" : "falso")
+
+//Template String
+const variavalX1 = "bla";
+const variavelX2 = "ble";
+const variavelFrase = `bli ${variavalX1} blo ${variavelX2} blu"`;
+console.log(variavelFrase)
+
+//Arrow Function
+const soma = (num1, num2) => num1 + num2;
